@@ -1,0 +1,7 @@
+C:\Programming\TaskEpam.Net2020\bin\Debug\TaskEpam.Net2020.exe.config
+C:\Programming\TaskEpam.Net2020\bin\Debug\TaskEpam.Net2020.exe
+C:\Programming\TaskEpam.Net2020\bin\Debug\TaskEpam.Net2020.pdb
+C:\Programming\TaskEpam.Net2020\obj\Debug\TaskEpam.Net2020.csprojAssemblyReference.cache
+C:\Programming\TaskEpam.Net2020\obj\Debug\TaskEpam.Net2020.csproj.CoreCompileInputs.cache
+C:\Programming\TaskEpam.Net2020\obj\Debug\TaskEpam.Net2020.exe
+C:\Programming\TaskEpam.Net2020\obj\Debug\TaskEpam.Net2020.pdb

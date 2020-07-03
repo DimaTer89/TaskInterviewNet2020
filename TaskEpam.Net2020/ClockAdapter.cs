@@ -33,7 +33,7 @@
             int hours = (int)clockWithArrows.HourAngle / HOUR_DEGREE;
             int minutes = (int)clockWithArrows.MinuteAngle / MINUTE_SECOND_DEGREE;
             int seconds = (int)clockWithArrows.SecondAngle / MINUTE_SECOND_DEGREE;
-            return $"{((hours < VALUE_BOUNDARY_HOUR) ? hours : 0)}:{((minutes < VALUE_BOUNDARY_MINUTE_SECOND) ? minutes : 0)}:{((seconds < VALUE_BOUNDARY_MINUTE_SECOND) ? seconds : 0)}";
+            return string.Format("{0:00}:{1:00}:{2:00}", ((hours < VALUE_BOUNDARY_HOUR) ? hours : 0), ((minutes < VALUE_BOUNDARY_MINUTE_SECOND) ? minutes : 0), ((seconds < VALUE_BOUNDARY_MINUTE_SECOND) ? seconds : 0));
         }
     }
 }

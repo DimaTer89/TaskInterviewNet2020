@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("TaskEpam.Net2020")]
+[assembly: AssemblyTitle("ClockConsole")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("TaskEpam.Net2020")]
+[assembly: AssemblyProduct("ClockConsole")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("2dec5ee4-da7d-4246-9fe5-14c6e716f63c")]
+[assembly: Guid("ab46c195-4c4d-4cc2-955a-1f041d82762c")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

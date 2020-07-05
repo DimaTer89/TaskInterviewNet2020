@@ -7,7 +7,7 @@
         private const int VALUE_BOUNDARY_MINUTE_SECOND = 60;
         private const int HOUR_DEGREE = 30;
         private const int MINUTE_SECOND_DEGREE = 6;
-        
+
         public ClockAdapter(ClockWithArrows clockWithArrows)
         {
             this.clockWithArrows = clockWithArrows;

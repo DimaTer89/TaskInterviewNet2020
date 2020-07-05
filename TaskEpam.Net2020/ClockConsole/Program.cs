@@ -1,7 +1,7 @@
-﻿using System;
-using ClockLibrary;
+﻿using ClockLibrary;
+using System;
 
-namespace TaskEpam.Net2020
+namespace ClockConsole
 {
     class Program
     {
@@ -11,7 +11,7 @@ namespace TaskEpam.Net2020
             ClockWithArrows clockWithArrows = new ClockWithArrows();
             IClockAdapter clockAdapter = new ClockAdapter(clockWithArrows);
             bool isExit = false;
-            while(!isExit)
+            while (!isExit)
             {
                 Console.Clear();
                 Console.WriteLine("1 - Установить угол поворота часовой стрелки");
@@ -50,7 +50,7 @@ namespace TaskEpam.Net2020
                             break;
                     }
                 }
-                catch(FormatException ex)
+                catch (FormatException ex)
                 {
                     Console.WriteLine(ex.Message);
                     Console.ReadKey();

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2DEC5EE4-DA7D-4246-9FE5-14C6E716F63C}</ProjectGuid>
+    <ProjectGuid>{AB46C195-4C4D-4CC2-955A-1F041D82762C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TaskEpam.Net2020</RootNamespace>
-    <AssemblyName>TaskEpam.Net2020</AssemblyName>
+    <RootNamespace>ClockConsole</RootNamespace>
+    <AssemblyName>ClockConsole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClockAdapter.cs" />
-    <Compile Include="ClockWithArrows.cs" />
-    <Compile Include="IClockAdapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClockLibrary\ClockLibrary.csproj">
+      <Project>{ae984344-1fc0-4f76-9115-340f98dd7b2f}</Project>
+      <Name>ClockLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

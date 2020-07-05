@@ -1,5 +1,4 @@
-Проект “Часы”. В проекте должен быть реализован адаптер, который дает возможность пользоваться часами со стрелками так же, как и цифровыми часами. В классе
-“Часы со стрелками” хранятся повороты стрелок. 
-Если не задать углы поворота стрелок, по умолчанию будут значения равные 0.
-При вводе значений, которые не будут удовлетворять условию, изменений не будут произведены.
-Запускаемый проект ClockConsole.
+Project “Clock”. An adapter must be implemented in the project, which makes it possible to use a clock with arrows in the same way as a digital clock.
+In the class “Clock with hands” the turns of the hands are stored. If you do not specify the rotation angles of the arrows, the default values will be 0.
+When entering values that will not satisfy the condition, no changes will be made.
+Launched ClockConsole project.

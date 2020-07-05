@@ -46,7 +46,7 @@ namespace ClockConsole
                             isExit = true;
                             break;
                         default:
-                            Console.WriteLine("Incorrect menu select");
+                            Console.WriteLine("Incorrect menu selection");
                             break;
                     }
                 }

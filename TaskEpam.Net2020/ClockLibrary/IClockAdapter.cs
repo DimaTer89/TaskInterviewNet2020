@@ -1,6 +1,6 @@
-﻿namespace TaskEpam.Net2020
+﻿namespace ClockLibrary
 {
-    interface IClockAdapter
+    public interface IClockAdapter
     {
         string ShowDigitalTime();
         void SetHourAngle(double hourAngle);

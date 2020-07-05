@@ -1,6 +1,6 @@
-﻿namespace TaskEpam.Net2020
+﻿namespace ClockLibrary
 {
-    class ClockWithArrows
+    public class ClockWithArrows
     {
         private double hourAngle;
         private double minuteAngle;

@@ -1,6 +1,6 @@
-﻿namespace TaskEpam.Net2020
+﻿namespace ClockLibrary
 {
-    class ClockAdapter:IClockAdapter
+    public class ClockAdapter:IClockAdapter
     {
         private ClockWithArrows clockWithArrows;
         private const int VALUE_BOUNDARY_HOUR = 24;
